@@ -1,0 +1,165 @@
+/* Nav Styles */
+body{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Logo Image */
+
+.ct-nav img {
+    width:15%;
+    max-width: 100%;
+    margin-left: 2vw;
+    margin-top: .5vw;
+}
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: .5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid #C12E26;
+    border-radius: 11px;
+    margin-right: .2vw;
+}
+/* End of Navbar Styles */
+
+/* Start of Header Section */
+#header-text{
+    padding: 5vw;
+}
+
+.header-image{
+    width: 62%;
+    max-width: 100%;
+    padding-top: 45px;
+}
+/* End of our Header Section Styles */
+
+/* Start of our Middle Section */
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+
+/* End our Middle Section Styles */
+
+/* Start of Feature section styles */
+#api-image, #graphql-image{
+    margin-bottom: 6vh;
+}
+
+#database-image{
+    margin-top:  3vh;
+    margin-bottom: 7vh;
+}
+
+#features-section{
+    margin: 5vw;
+    padding-bottom: 14vh;
+}
+
+/* End of features section */
+
+/* Community Section Styles */
+#Skate-image{
+    width: 70%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* End of Community Section */
+
+
+/* Footer Styles Section */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    align-items: center;
+    align-content:stretch;
+}
+
+.middle-footer{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:stretch;
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 1px solid black;
+    margin-top: 20vh;
+    padding-top: 25px;
+}
+
+/* Profile Styles */
+
+.hero-section{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(123, 121, 124, 1.03)), url(../images/skating-profile.jpg);    
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color:white
+}
+
+.btn{
+    background-color: #C12E26;
+    border-color: black;
+    
+}
+
+.right{
+float: right;
+padding-right: 30%;
+padding-top: 20px;
+}
+
+.left{
+float: left;
+padding-left: 10%;
+padding-top: 20px;
+}
