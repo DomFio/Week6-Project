@@ -1,0 +1,1 @@
+web: gunicorn skating_inventory:app --preload
